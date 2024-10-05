@@ -1,0 +1,36 @@
+---
+layout: base.njk
+title: Anthony Nguyen
+---
+
+<div class="row content-block">
+    <div class="col-xs-12 col-md-12 col-lg-9">
+        <h1 class="page-header">I was exhausted…</h1>
+        <p>I had played the entire first half, and started the 2nd half. Now we were maybe five? Ten? Minutes away from the game ending. I remember looking over to coach hoping to see him motion for me to switch out. Minute after minute goes by, no motion, not even a look in my direction. What gives? <strong>*whistles*</strong> Finally.</p>
+        <p>On the car ride home I’m complaining to my father about not getting a second of rest, how it’s not fair. He tells me that he did ask, he wanted to know why his son had to play the entire game with no breaks. The answer he received was, “I know that Tony’s exhausted. But he draws multiple defenders to him. <em>He creates opportunity.</em>”</p>
+        <p>Suddenly, I didn’t feel all that tired.</p>
+    </div>
+</div>
+
+<div class="row content-block">
+    <div class="col-xs-12 col-md-12 col-lg-8">
+        <img src="/static/img/bio/phldesign_group.jpg" class="img-responsive" alt="Group photo from a summer meet-up with PHLDesign">
+        <p class="caption">
+            Everyone loves a group photo. PHLDesign Co. circa 2020.
+        </p>
+    </div>
+</div>
+
+<div class="row content-block">
+    <div class="col-xs-12 col-md-12 col-lg-9">
+        <h2 class="section-header-alt">I create.</h2>
+        <p class="body-copy-sm">That spark has been my drive. I bring people together and help craft team culture. Self-admittedly, I am the best hype man you’d want in your corner. I possess endless optimism that is contagious and create safe, supportive environments. Often times, teams just need a jolt of energy. I’m that spark.</p>
+    </div>
+</div>
+
+<div class="row content-block">
+    <div class="col-xs-12">
+        <a class="no-fx" href="mailto:hi@antnguyen.com"><button class="btn">Let's Chat <span class="icon right-arrow"></span></button></a>
+        <p class="secondary-link"><a href="/static/a/anthony_nguyen-resume.pdf" target="_blank">View my resume</a></p>
+    </div>
+</div>

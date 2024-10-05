@@ -1,0 +1,41 @@
+---
+title: AntNguyen Design Portfolio
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/static/css/tony.css">
+	<title>{{ title }}</title>
+	<script src="https://kit.fontawesome.com/9d8f805834.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<div class="container">
+		<nav>
+			<div class="row">
+				<div class="col-xs-12 nav-container">
+					<a class="site-logo-link" href="/">
+						<img class="site-logo" src = "/static/img/site-logo.svg" alt="My Happy SVG"/>
+					</a>
+					<ul>
+						{# <li><a href="/work">Work</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/experience">Experience</a></li> #}
+					</ul>
+				</div>
+			</div>
+		</nav>
+		{{ content | safe }}
+		<footer>
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="caption">© 2024 Anthony Nguyen</p>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

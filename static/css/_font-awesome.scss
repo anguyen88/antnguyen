@@ -1,0 +1,115 @@
+@use 'variables' as *;
+
+$list-icon-color: $color-mint-300;
+
+.right-arrow::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 16px;
+  font-weight: 900;
+  content: "\f061";
+  margin-left: -16px;
+  opacity: 0;
+  transition: .3s;
+}
+
+.pen-nib {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 18px;
+  margin-right: $spacing-xs;
+  color: $list-icon-color;
+  transition: .3s;
+  &::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: $font-size-body-one-large;
+    font-weight: 900;
+    content: "\f5ad";
+    opacity: 1;
+    transition: .3s;
+  }
+}
+
+.trophy {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 18px;
+  margin-right: $spacing-xs;
+  color: $list-icon-color;
+  transition: .3s;
+  &::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: $font-size-body-one-large;
+    font-weight: 900;
+    content: "\f091";
+    opacity: 1;
+    transition: .3s;
+  }
+}
+
+.headphones {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 18px;
+  margin-right: $spacing-xs;
+  color: $list-icon-color;
+  transition: .3s;
+  &::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: $font-size-body-one-large;
+    font-weight: 900;
+    content: "\f025";
+    opacity: 1;
+    transition: .3s;
+  }
+}
+
+.book {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 18px;
+  margin-right: $spacing-xs;
+  color: $list-icon-color;
+  transition: .3s;
+  &::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: $font-size-body-one-large;
+    font-weight: 900;
+    content: "\f02d";
+    opacity: 1;
+    transition: .3s;
+  }
+}
+
+.album {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 18px;
+  margin-right: $spacing-xs;
+  color: $list-icon-color;
+  transition: .3s;
+  &::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: $font-size-body-one-large;
+    font-weight: 900;
+    content: "\f51f";
+    opacity: 1;
+    transition: .3s;
+  }
+}
+
+.controller {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 18px;
+  margin-right: $spacing-xs;
+  color: $list-icon-color;
+  transition: .3s;
+  &::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: $font-size-body-one-large;
+    font-weight: 900;
+    content: "\f11b";
+    opacity: 1;
+    transition: .3s;
+  }
+}

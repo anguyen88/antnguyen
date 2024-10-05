@@ -1,0 +1,24 @@
+{
+  "name": "antnguyen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass --watch static/css:_site/static/css",
+    "build:sass": "sass static/css:_site/static/css",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "build:eleventy": "npx eleventy",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.78.0",
+    "style-dictionary": "^4.1.1"
+  }
+}
