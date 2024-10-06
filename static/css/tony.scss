@@ -69,9 +69,8 @@ footer {
 }
 
 .site-logo {
-    
     path {
-        fill: $fill-on-dark-interactive;
+        fill: $color-mint-400;
         transition: 0.5s;
     }
     &:hover {
