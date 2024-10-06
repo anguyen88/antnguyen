@@ -1,55 +1,5 @@
 {
   "color": {
-    "coral": {
-      "100": {
-        "$type": "color",
-        "$value": "#fff0ef"
-      },
-      "200": {
-        "$type": "color",
-        "$value": "#ffe2df"
-      },
-      "300": {
-        "$type": "color",
-        "$value": "#ffc5c0"
-      },
-      "400": {
-        "$type": "color",
-        "$value": "#ffa9a0"
-      },
-      "500": {
-        "$type": "color",
-        "$value": "#ff8c81"
-      },
-      "600": {
-        "$type": "color",
-        "$value": "#ff6f61"
-      },
-      "700": {
-        "$type": "color",
-        "$value": "#cc594e"
-      },
-      "800": {
-        "$type": "color",
-        "$value": "#b34e44"
-      },
-      "900": {
-        "$type": "color",
-        "$value": "#803831"
-      },
-      "1000": {
-        "$type": "color",
-        "$value": "#4d221d"
-      },
-      "1100": {
-        "$type": "color",
-        "$value": "#331613"
-      },
-      "1200": {
-        "$type": "color",
-        "$value": "#1a0b0a"
-      }
-    },
     "mint": {
       "100": {
         "$type": "color",
@@ -98,6 +48,56 @@
       "1200": {
         "$type": "color",
         "$value": "#0b2828"
+      }
+    },
+    "coral": {
+      "100": {
+        "$type": "color",
+        "$value": "#fff0ef"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#ffe2df"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#ffc5c0"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#ffa9a0"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#ff8c81"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#ff6f61"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#cc594e"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#b34e44"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#803831"
+      },
+      "1000": {
+        "$type": "color",
+        "$value": "#4d221d"
+      },
+      "1100": {
+        "$type": "color",
+        "$value": "#331613"
+      },
+      "1200": {
+        "$type": "color",
+        "$value": "#1a0b0a"
       }
     },
     "violet": {
@@ -342,7 +342,7 @@
         },
         "small": {
           "$type": "dimension",
-          "$value": "32px"
+          "$value": "28px"
         }
       }
     },
@@ -380,11 +380,11 @@
       "caption": {
         "large": {
           "$type": "dimension",
-          "$value": "14px"
+          "$value": "16px"
         },
         "small": {
           "$type": "dimension",
-          "$value": "14px"
+          "$value": "16px"
         }
       }
     }

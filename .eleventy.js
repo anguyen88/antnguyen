@@ -40,5 +40,6 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("static/font");
   eleventyConfig.addPassthroughCopy("static/a");
+  eleventyConfig.addPassthroughCopy("static/js");
 
 };
