@@ -11,7 +11,7 @@
     "build": "npm-run-all build:*"
   },
   "eslintConfig": {
-  "extends": ["wesbos"]
+    "extends": ["wesbos"]
   },
   "keywords": [],
   "author": "",
