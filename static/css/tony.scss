@@ -77,42 +77,25 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 p {
-    font-family: $font-family-sans-serif;
-    font-size: $font-size-body-two-large;
-    font-weight: normal;
+    @extend .body-two;
     color: $text-on-light-default;
-    line-height: 165%;
 }
 
 .page-header {
-    font-family: $font-family-serif;
-    font-size: $font-size-display-two-large;
-    font-weight: normal;
+    @extend .display-two;
     color: $text-on-light-default;
-    @media (max-width: 767.98px) {
-        font-size: $font-size-display-two-small;
-    }
 }
 
 .intro {
-    font-family: $font-family-serif;
-    font-size: $font-size-headline-two-large;
-    font-weight: normal;
+    @extend .headline-two;
     color: $text-on-light-emphasis-soft;
-    line-height: 135%;
-    @media (max-width: 575.98px) {
-        font-size: $font-size-headline-two-small;
-    }
 }
 
 .caption {
-    font-family: $font-family-sans-serif;
-    font-size: $font-size-body-caption-large;
-    font-weight: normal;
+    @extend .caption;
     color: $text-on-light-subtle;
     line-height: 165%;
     @media (max-width: 767.98px) {
-        font-size: $font-size-body-caption-small;
         padding: $spacing-xxs 0;
     }
 }
@@ -150,7 +133,7 @@ a {
     &:hover {
         text-decoration: none;
         color: $text-on-light-interactive-hover;
-        border-bottom: 1px solid  $color-mint-100;
+        border-bottom: 1px solid $color-mint-100;
         &:after {
             height: 34px;
             width: 100%;

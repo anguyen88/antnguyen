@@ -22,6 +22,7 @@
 .display-one {
     font-family: $font-family-serif;
     font-size: $font-size-display-one-large;
+    font-weight: normal;
     line-height: 135%;
     @media (max-width: 767.98px) {
         font-size: $font-size-display-one-small;
@@ -31,6 +32,7 @@
 .display-two {
     font-family: $font-family-serif;
     font-size: $font-size-display-two-large;
+    font-weight: normal;
     line-height: 135%;
     @media (max-width: 767.98px) {
         font-size: $font-size-display-two-small;
@@ -40,6 +42,7 @@
 .display-three {
     font-family: $font-family-sans-serif;
     font-size: $font-size-display-three-large;
+    font-weight: normal;
     line-height: 135%;
     @media (max-width: 767.98px) {
         font-size: $font-size-display-three-small;
@@ -49,6 +52,7 @@
 .headline-one {
     font-family: $font-family-serif;
     font-size: $font-size-headline-one-large;
+    font-weight: normal;
     line-height: 135%;
     @media (max-width: 767.98px) {
         font-size: $font-size-headline-one-small;
@@ -58,6 +62,7 @@
 .headline-two {
     font-family: $font-family-serif;
     font-size: $font-size-headline-two-large;
+    font-weight: normal;
     line-height: 135%;
     @media (max-width: 767.98px) {
         font-size: $font-size-headline-two-small;
@@ -67,6 +72,7 @@
 .headline-three {
     font-family: $font-family-sans-serif;
     font-size: $font-size-headline-three-large;
+    font-weight: normal;
     line-height: 135%;
     @media (max-width: 767.98px) {
         font-size: $font-size-headline-three-small;
@@ -76,6 +82,7 @@
 .subtitle {
     font-family: $font-family-serif;
     font-size: $font-size-body-subtitle-large;
+    font-weight: normal;
     line-height: 135%;
     @media (max-width: 767.98px) {
         font-size: $font-size-body-subtitle-small;
@@ -85,6 +92,7 @@
 .body-one {
     font-family: $font-family-sans-serif;
     font-size: $font-size-body-one-large;
+    font-weight: normal;
     line-height: 135%;
     @media (max-width: 767.98px) {
         font-size: $font-size-body-one-small;
@@ -94,7 +102,8 @@
 .body-two {
     font-family: $font-family-sans-serif;
     font-size: $font-size-body-two-large;
-    line-height: 135%;
+    font-weight: normal;
+    line-height: 165%;
     @media (max-width: 767.98px) {
         font-size: $font-size-body-two-small;
     }
@@ -103,6 +112,7 @@
 .caption {
     font-family: $font-family-sans-serif;
     font-size: $font-size-body-caption-large;
+    font-weight: normal;
     line-height: 135%;
     @media (max-width: 767.98px) {
         font-size: $font-size-body-caption-small;

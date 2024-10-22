@@ -1274,6 +1274,7 @@ hr {
 .display-one {
   font-family: DM Serif Display;
   font-size: 72px;
+  font-weight: normal;
   line-height: 135%;
 }
 @media (max-width: 767.98px) {
@@ -1282,13 +1283,14 @@ hr {
   }
 }
 
-.display-two {
+.display-two, .page-header {
   font-family: DM Serif Display;
   font-size: 64px;
+  font-weight: normal;
   line-height: 135%;
 }
 @media (max-width: 767.98px) {
-  .display-two {
+  .display-two, .page-header {
     font-size: 48px;
   }
 }
@@ -1296,6 +1298,7 @@ hr {
 .display-three {
   font-family: DM Sans;
   font-size: 60px;
+  font-weight: normal;
   line-height: 135%;
 }
 @media (max-width: 767.98px) {
@@ -1307,6 +1310,7 @@ hr {
 .headline-one {
   font-family: DM Serif Display;
   font-size: 48px;
+  font-weight: normal;
   line-height: 135%;
 }
 @media (max-width: 767.98px) {
@@ -1315,13 +1319,14 @@ hr {
   }
 }
 
-.headline-two {
+.headline-two, .intro {
   font-family: DM Serif Display;
   font-size: 38px;
+  font-weight: normal;
   line-height: 135%;
 }
 @media (max-width: 767.98px) {
-  .headline-two {
+  .headline-two, .intro {
     font-size: 32px;
   }
 }
@@ -1329,6 +1334,7 @@ hr {
 .headline-three {
   font-family: DM Sans;
   font-size: 30px;
+  font-weight: normal;
   line-height: 135%;
 }
 @media (max-width: 767.98px) {
@@ -1340,6 +1346,7 @@ hr {
 .subtitle {
   font-family: DM Serif Display;
   font-size: 30px;
+  font-weight: normal;
   line-height: 135%;
 }
 @media (max-width: 767.98px) {
@@ -1351,6 +1358,7 @@ hr {
 .body-one {
   font-family: DM Sans;
   font-size: 24px;
+  font-weight: normal;
   line-height: 135%;
 }
 @media (max-width: 767.98px) {
@@ -1359,13 +1367,14 @@ hr {
   }
 }
 
-.body-two {
+.body-two, p {
   font-family: DM Sans;
   font-size: 20px;
-  line-height: 135%;
+  font-weight: normal;
+  line-height: 165%;
 }
 @media (max-width: 767.98px) {
-  .body-two {
+  .body-two, p {
     font-size: 20px;
   }
 }
@@ -1373,6 +1382,7 @@ hr {
 .caption {
   font-family: DM Sans;
   font-size: 16px;
+  font-weight: normal;
   line-height: 135%;
 }
 @media (max-width: 767.98px) {
@@ -1440,48 +1450,23 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 p {
-  font-family: DM Sans;
-  font-size: 20px;
-  font-weight: normal;
   color: #333333;
-  line-height: 165%;
 }
 
 .page-header {
-  font-family: DM Serif Display;
-  font-size: 64px;
-  font-weight: normal;
   color: #333333;
-}
-@media (max-width: 767.98px) {
-  .page-header {
-    font-size: 48px;
-  }
 }
 
 .intro {
-  font-family: DM Serif Display;
-  font-size: 38px;
-  font-weight: normal;
   color: #195c5d;
-  line-height: 135%;
-}
-@media (max-width: 575.98px) {
-  .intro {
-    font-size: 32px;
-  }
 }
 
 .caption {
-  font-family: DM Sans;
-  font-size: 16px;
-  font-weight: normal;
   color: #7f7f7f;
   line-height: 165%;
 }
 @media (max-width: 767.98px) {
   .caption {
-    font-size: 16px;
     padding: 4px 0;
   }
 }
