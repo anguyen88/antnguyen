@@ -1,0 +1,114 @@
+@use 'variables' as *;
+
+@font-face {
+    font-family: DM Sans;
+    font-weight: 500;
+    src:
+    url('/static/font/dm-sans/DMSans-Regular.ttf'),
+}
+
+@font-face {
+    font-family: DM Sans;
+    font-weight: 700;
+    src:
+    url('/static/font/dm-sans/DMSans-Bold.ttf'),
+}
+
+@font-face {
+    font-family: DM Serif Display;
+    src: url('/static/font/dm-serif/DMSerifDisplay-Regular.ttf');
+}
+
+.display-one {
+    font-family: $font-family-serif;
+    font-size: $font-size-display-one-large;
+    line-height: 135%;
+    @media (max-width: 767.98px) {
+        font-size: $font-size-display-one-small;
+    }
+}
+
+.display-two {
+    font-family: $font-family-serif;
+    font-size: $font-size-display-two-large;
+    line-height: 135%;
+    @media (max-width: 767.98px) {
+        font-size: $font-size-display-two-small;
+    }
+}
+
+.display-three {
+    font-family: $font-family-sans-serif;
+    font-size: $font-size-display-three-large;
+    line-height: 135%;
+    @media (max-width: 767.98px) {
+        font-size: $font-size-display-three-small;
+    }
+}
+
+.headline-one {
+    font-family: $font-family-serif;
+    font-size: $font-size-headline-one-large;
+    line-height: 135%;
+    @media (max-width: 767.98px) {
+        font-size: $font-size-headline-one-small;
+    }
+}
+
+.headline-two {
+    font-family: $font-family-serif;
+    font-size: $font-size-headline-two-large;
+    line-height: 135%;
+    @media (max-width: 767.98px) {
+        font-size: $font-size-headline-two-small;
+    }
+}
+
+.headline-three {
+    font-family: $font-family-sans-serif;
+    font-size: $font-size-headline-three-large;
+    line-height: 135%;
+    @media (max-width: 767.98px) {
+        font-size: $font-size-headline-three-small;
+    }
+}
+
+.subtitle {
+    font-family: $font-family-serif;
+    font-size: $font-size-body-subtitle-large;
+    line-height: 135%;
+    @media (max-width: 767.98px) {
+        font-size: $font-size-body-subtitle-small;
+    }
+}
+
+.body-one {
+    font-family: $font-family-sans-serif;
+    font-size: $font-size-body-one-large;
+    line-height: 135%;
+    @media (max-width: 767.98px) {
+        font-size: $font-size-body-one-small;
+    }
+}
+
+.body-two {
+    font-family: $font-family-sans-serif;
+    font-size: $font-size-body-two-large;
+    line-height: 135%;
+    @media (max-width: 767.98px) {
+        font-size: $font-size-body-two-small;
+    }
+}
+
+.caption {
+    font-family: $font-family-sans-serif;
+    font-size: $font-size-body-caption-large;
+    line-height: 135%;
+    @media (max-width: 767.98px) {
+        font-size: $font-size-body-caption-small;
+    }
+}
+
+.semibold {
+    font-weight: 700;
+}

@@ -1,6 +1,7 @@
 @use 'variables' as *;
 @use 'bootstrap';
 @use 'font-awesome';
+@use 'typography';
 
 @mixin icon {
     .icon::before {
@@ -9,26 +10,6 @@
         -webkit-font-smoothing: antialiased;
     }
 }
-
-@font-face {
-    font-family: DM Sans;
-    font-weight: 500;
-    src:
-    url('/static/font/dm-sans/DMSans-Regular.ttf'),
-}
-
-@font-face {
-    font-family: DM Sans;
-    font-weight: 700;
-    src:
-    url('/static/font/dm-sans/DMSans-Bold.ttf'),
-}
-
-@font-face {
-    font-family: DM Serif Display;
-    src: url('/static/font/dm-serif/DMSerifDisplay-Regular.ttf');
-}
-
 
 // Global page styling
 

@@ -1271,6 +1271,120 @@ hr {
   font-family: DM Serif Display;
   src: url("/static/font/dm-serif/DMSerifDisplay-Regular.ttf");
 }
+.display-one {
+  font-family: DM Serif Display;
+  font-size: 72px;
+  line-height: 135%;
+}
+@media (max-width: 767.98px) {
+  .display-one {
+    font-size: 54px;
+  }
+}
+
+.display-two {
+  font-family: DM Serif Display;
+  font-size: 64px;
+  line-height: 135%;
+}
+@media (max-width: 767.98px) {
+  .display-two {
+    font-size: 48px;
+  }
+}
+
+.display-three {
+  font-family: DM Sans;
+  font-size: 60px;
+  line-height: 135%;
+}
+@media (max-width: 767.98px) {
+  .display-three {
+    font-size: 44px;
+  }
+}
+
+.headline-one {
+  font-family: DM Serif Display;
+  font-size: 48px;
+  line-height: 135%;
+}
+@media (max-width: 767.98px) {
+  .headline-one {
+    font-size: 40px;
+  }
+}
+
+.headline-two {
+  font-family: DM Serif Display;
+  font-size: 38px;
+  line-height: 135%;
+}
+@media (max-width: 767.98px) {
+  .headline-two {
+    font-size: 32px;
+  }
+}
+
+.headline-three {
+  font-family: DM Sans;
+  font-size: 30px;
+  line-height: 135%;
+}
+@media (max-width: 767.98px) {
+  .headline-three {
+    font-size: 28px;
+  }
+}
+
+.subtitle {
+  font-family: DM Serif Display;
+  font-size: 30px;
+  line-height: 135%;
+}
+@media (max-width: 767.98px) {
+  .subtitle {
+    font-size: 24px;
+  }
+}
+
+.body-one {
+  font-family: DM Sans;
+  font-size: 24px;
+  line-height: 135%;
+}
+@media (max-width: 767.98px) {
+  .body-one {
+    font-size: 24px;
+  }
+}
+
+.body-two {
+  font-family: DM Sans;
+  font-size: 20px;
+  line-height: 135%;
+}
+@media (max-width: 767.98px) {
+  .body-two {
+    font-size: 20px;
+  }
+}
+
+.caption {
+  font-family: DM Sans;
+  font-size: 16px;
+  line-height: 135%;
+}
+@media (max-width: 767.98px) {
+  .caption {
+    font-size: 16px;
+  }
+}
+
+.semibold {
+  font-weight: 700;
+}
+
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
