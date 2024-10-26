@@ -17,7 +17,7 @@ title: Anthony Nguyen
         <h2 class="intro">An award winning designer focused on delivering empathy-driven, inclusive experiences.</h2>
         <p>I have over 14 years of experience in navigating this constantly evolving design industry. From being an individual contributor to a design leader, I always find myself learning and ever curious about new technologies and how they can be  incorporated into the design process.</p>
         <p>As an extrovert, I thrive on social interactions, and derive energy from engaging with others. My passion lies in people. Discovering pathways to build community and crafting tools that cater to people’s needs. My inherent desire is to provide experiences that promote equity and ensure that everyone has  equal accessibility.</p>
-        <a class="no-fx" href="/static/a/anthony_nguyen-resume.pdf" target="_blank"><button class="btn">View my resume<span class="icon right-arrow"></span></button></a>
+        <a role="link" class="no-fx" href="/static/a/anthony_nguyen-resume.pdf" target="_blank"><button class="btn">View my resume<span class="icon right-arrow"></span></button></a>
     </div>
 </div>
 
@@ -26,7 +26,7 @@ title: Anthony Nguyen
         <p class="caption strong uppercase">Contact Me</p>
     </div>
     <div class="col-xs-12 col-lg-8">
-        <p>If you’re interested in working together, please reach out to me at <a href="mailto:hi@antnguyen.com" target="_blank">hi@antnguyen.com</a></p>
+        <p>If you’re interested in working together, please reach out to me at <a role="link" href="mailto:hi@antnguyen.com" target="_blank">hi@antnguyen.com</a></p>
     </div>
 </div>
 
@@ -39,7 +39,7 @@ title: Anthony Nguyen
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
                     <div class="accordion-left">
-                        <img class="company-logo" style="width:80px;" src="/static/img/experience/company-logo/ford-logo.svg" alt="Placeholder Image">
+                        <img class="company-logo" style="width:80px;" src="/static/img/experience/company-logo/ford-logo.svg" alt="Ford company logo">
                     </div>
                     <div class="accordion-right">
                         <p class="caption">2023 – Current</p>
@@ -61,7 +61,7 @@ title: Anthony Nguyen
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
                     <div class="accordion-left">
-                        <img class="company-logo" src="/static/img/experience/company-logo/capital-one-logo.svg" alt="Placeholder Image">
+                        <img class="company-logo" src="/static/img/experience/company-logo/capital-one-logo.svg" alt="Capital One company logo">
                     </div>
                     <div class="accordion-right">
                         <p class="caption">2022 – 2023</p>
@@ -83,7 +83,7 @@ title: Anthony Nguyen
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
                     <div class="accordion-left">
-                        <img class="company-logo" style="width:110px;" src="/static/img/experience/company-logo/comcast-logo.svg" alt="Placeholder Image">
+                        <img class="company-logo" style="width:110px;" src="/static/img/experience/company-logo/comcast-logo.svg" alt="Comcast company logo">
                     </div>
                     <div class="accordion-right">
                         <p class="caption">2016 – 2022</p>
@@ -105,7 +105,7 @@ title: Anthony Nguyen
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
                     <div class="accordion-left">
-                        <img class="company-logo" style="width:40px;" src="/static/img/experience/company-logo/free-people-logo.svg" alt="Placeholder Image">
+                        <img class="company-logo" style="width:40px;" src="/static/img/experience/company-logo/free-people-logo.svg" alt="Free People company logo">
                     </div>
                     <div class="accordion-right">
                         <p class="caption">2014 – 2016</p>
@@ -127,7 +127,7 @@ title: Anthony Nguyen
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
                     <div class="accordion-left">
-                        <img class="company-logo" style="width:140px;" src="/static/img/experience/company-logo/happy-cog-logo.svg" alt="Placeholder Image">
+                        <img class="company-logo" style="width:140px;" src="/static/img/experience/company-logo/happy-cog-logo.svg" alt="Happy Cog company logo">
                     </div>
                     <div class="accordion-right">
                         <p class="caption">2013 – 2014</p>
@@ -149,7 +149,7 @@ title: Anthony Nguyen
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
                     <div class="accordion-left">
-                        <img class="company-logo" style="width:140px;" src="/static/img/experience/company-logo/urban-outfitters-logo.svg" alt="Placeholder Image">
+                        <img class="company-logo" style="width:140px;" src="/static/img/experience/company-logo/urban-outfitters-logo.svg" alt="Urban Outfitters company logo">
                     </div>
                     <div class="accordion-right">
                         <p class="caption">2013</p>
@@ -171,7 +171,7 @@ title: Anthony Nguyen
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
                     <div class="accordion-left">
-                        <img class="company-logo" src="/static/img/experience/company-logo/1-trick-pony-logo.svg" alt="Placeholder Image">
+                        <img class="company-logo" src="/static/img/experience/company-logo/1-trick-pony-logo.svg" alt="1 Trick Pony company logo">
                     </div>
                     <div class="accordion-right">
                         <p class="caption">2011 – 2013</p>
