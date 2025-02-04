@@ -23,15 +23,15 @@ title: Anthony Nguyen
         <h2 class="intro">What I create</h2>
         <p class="body-copy-sm">I often found it quite difficult to explain what I bring to teams. For the longest time, I would default to speaking about the work. My design processes, my efficiencies. But that’s repeated throughout my project showcases. I realized that I had been leaving out an entire part of what I bring that is tough to measure. Team culture. </p>
          <p class="body-copy-sm">I create safe, supportive environments. Spaces where we celebrate each other as intensely as we support each other. I create the opportunity for every single person to shine and be their best self. </p>
-         <a class="no-fx" href="mailto:hi@antnguyen.com"><button class="btn">Let's Chat<span class="icon right-arrow"></span></button></a>
+         <a role="link" class="no-fx" href="mailto:hi@antnguyen.com"><button class="btn">Let's Chat<span class="icon right-arrow"></span></button></a>
     </div>
 </div>
 
 <div class="row">
     <div class="col-xs-12 col-md-12 col-lg-9">
         <h2 class="intro">Follow along</h2>
-        <p>Everything I’m working on is entirely viewable by the public. This <a href="https://www.figma.com/design/Am5GxBjyhk5ZPAARsawec8/Core?node-id=73-222&t=kmdLPtTycPBI8MDk-1" target="_blank">Figma file</a> contains the design system I’ve built for myself, alongside the various components I’m going to be using throughout this experience. If you see me working in that file make sure to say hi!</p>
-        <p>You can also see my version history on <a href="https://github.com/anguyen88/antnguyen.github.io" target="_blank">GitHub</a> and get glimpse of how I’m using <a href="https://www.npmjs.com/package/style-dictionary" target="_blank">style-dictionary</a> to convert my primitives and semantics .json to tokens that I use to maintain consistency and make updating styles a breeze.</p>
-        <p><a href="https://www.11ty.dev/" target="_blank">11ty</a> is my site generator of choice, and everything is deployed through <a href="https://www.netlify.com/" target="_blank">Netlify</a>.</p>
+        <p>Everything I’m working on is entirely viewable by the public. This <a role="link" href="https://www.figma.com/design/Am5GxBjyhk5ZPAARsawec8/Core?node-id=73-222&t=kmdLPtTycPBI8MDk-1" target="_blank">Figma file</a> contains the design system I’ve built for myself, alongside the various components I’m going to be using throughout this experience. If you see me working in that file make sure to say hi!</p>
+        <p>You can also see my version history on <a role="link" href="https://github.com/anguyen88/antnguyen.github.io" target="_blank">GitHub</a> and get glimpse of how I’m using <a role="link" href="https://www.npmjs.com/package/style-dictionary" target="_blank">style-dictionary</a> to convert my primitives and semantics .json to tokens that I use to maintain consistency and make updating styles a breeze.</p>
+        <p><a role="link" href="https://www.11ty.dev/" target="_blank">11ty</a> is my site generator of choice, and everything is deployed through <a role="link" href="https://www.netlify.com/" target="_blank">Netlify</a>.</p>
     </div>
 </div>
