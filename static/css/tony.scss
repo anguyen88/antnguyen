@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-primary;
 }
 
 .no-fx {
@@ -171,7 +171,7 @@ a {
 // Sitewide Organisms
 
 nav {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-primary;
     font-size: $font-size-body-caption-large;
     font-weight: 700;
     .nav-container {

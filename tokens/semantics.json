@@ -28,10 +28,6 @@
       "interactive-hover": {
         "$type": "color",
         "$value": "{color.mint.1000}"
-      },
-      "bg": {
-        "$type": "color",
-        "$value": "{color.neutral.000}"
       }
     },
     "onDark": {
@@ -61,12 +57,16 @@
       },
       "interactive-hover": {
         "$type": "color",
-        "$value": "{color.mint.500}"
+        "$value": "{color.mint.400}"
       }
     }
   },
   "fill": {
     "onLight": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.neutral.000}"
+      },
       "interactive": {
         "$type": "color",
         "$value": "{color.mint.700}"
@@ -77,13 +77,17 @@
       }
     },
     "onDark": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      },
       "interactive": {
         "$type": "color",
         "$value": "{color.mint.300}"
       },
       "interactive-hover": {
         "$type": "color",
-        "$value": "{color.mint.500}"
+        "$value": "{color.mint.400}"
       }
     }
   }

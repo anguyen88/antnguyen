@@ -1,26 +1,18 @@
 @use 'variables' as *;
 
 @font-face {
-    font-family: DM Sans;
-    font-weight: 500;
+    font-family: Albert Sans;
     src:
-    url('/static/font/dm-sans/DMSans-Regular.ttf'),
+    url('/static/font/Albert_Sans/AlbertSans-VariableFont_wght.ttf'),
 }
 
 @font-face {
-    font-family: DM Sans;
-    font-weight: 700;
-    src:
-    url('/static/font/dm-sans/DMSans-Bold.ttf'),
-}
-
-@font-face {
-    font-family: DM Serif Display;
-    src: url('/static/font/dm-serif/DMSerifDisplay-Regular.ttf');
+    font-family: Red Hat Display;
+    src: url('/static/font/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf');
 }
 
 .display-one {
-    font-family: $font-family-serif;
+    font-family: $font-family-accent;
     font-size: $font-size-display-one-large;
     font-weight: normal;
     line-height: 135%;
@@ -30,7 +22,7 @@
 }
 
 .display-two {
-    font-family: $font-family-serif;
+    font-family: $font-family-accent;
     font-size: $font-size-display-two-large;
     font-weight: normal;
     line-height: 135%;
@@ -40,7 +32,7 @@
 }
 
 .display-three {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-primary;
     font-size: $font-size-display-three-large;
     font-weight: normal;
     line-height: 135%;
@@ -50,7 +42,7 @@
 }
 
 .headline-one {
-    font-family: $font-family-serif;
+    font-family: $font-family-accent;
     font-size: $font-size-headline-one-large;
     font-weight: normal;
     line-height: 135%;
@@ -60,7 +52,7 @@
 }
 
 .headline-two {
-    font-family: $font-family-serif;
+    font-family: $font-family-accent;
     font-size: $font-size-headline-two-large;
     font-weight: normal;
     line-height: 135%;
@@ -70,7 +62,7 @@
 }
 
 .headline-three {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-primary;
     font-size: $font-size-headline-three-large;
     font-weight: normal;
     line-height: 135%;
@@ -80,7 +72,7 @@
 }
 
 .subtitle {
-    font-family: $font-family-serif;
+    font-family: $font-family-accent;
     font-size: $font-size-body-subtitle-large;
     font-weight: normal;
     line-height: 135%;
@@ -90,7 +82,7 @@
 }
 
 .body-one {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-primary;
     font-size: $font-size-body-one-large;
     font-weight: normal;
     line-height: 135%;
@@ -100,7 +92,7 @@
 }
 
 .body-two {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-primary;
     font-size: $font-size-body-two-large;
     font-weight: normal;
     line-height: 165%;
@@ -110,7 +102,7 @@
 }
 
 .caption {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-primary;
     font-size: $font-size-body-caption-large;
     font-weight: normal;
     line-height: 135%;
